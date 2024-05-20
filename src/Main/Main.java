@@ -9,5 +9,7 @@ package Main;
  * @author logonrmlocal
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        new View.Menu_GUI().setVisible(true);
+    }
 }
